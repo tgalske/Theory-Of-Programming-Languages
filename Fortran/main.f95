@@ -1,3 +1,4 @@
+! Tyler Galske
 program main
     ! variable declarations
     integer :: numberOfShifts, lengthOfString
@@ -16,7 +17,7 @@ program main
 
     ! decrypt
     print *, achar(10), "DECRYPT"
-    encryptedString = "uncb px hjwtnnb"
+    encryptedString = "unc'b px hjwtnnb"
     lengthOfString = len_trim(encryptedString)
     print*, encryptedString
     encryptedString = toUpperCase(encryptedString)
@@ -90,7 +91,7 @@ subroutine solve(stringToSolve, maxShiftValue)
     HIGHEST_CHAR = 90   ! constant
     lengthOfString = len_trim(stringToSolve)
 
-    do while (maxShiftValue > 0)
+    do while (maxShiftValue > -1)
         do i = 1, len_trim(stringToSolve)
         j = iachar(stringToSolve(i:i))
         ! apply shift only for letters, ignore punctuation
@@ -98,7 +99,7 @@ subroutine solve(stringToSolve, maxShiftValue)
             j = j + maxShiftValue
             ! if shift goes past alphabet range, wrap back around
             if (j > HIGHEST_CHAR) then
-                j = modulo(j, HIGHEST_CHAR) + LOWEST_CHAR - 1
+                j = j - 26
             end if
         end if
         decryptedString(i:i) = achar(j)
@@ -126,5 +127,3 @@ function toUpperCase(strIn) result(strOut)
         end if
     end do
 end function toUpperCase
-
-

@@ -1,2 +1,9 @@
 *.exe
 *.o
+*.lps
+*.lpi
+*.iml
+.idea/
+lib/
+backup/
+out/
