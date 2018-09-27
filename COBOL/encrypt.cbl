@@ -1,3 +1,4 @@
+       *> Tyler Galske
        IDENTIFICATION DIVISION.
        PROGRAM-ID. ENCRYPT.
        DATA DIVISION.

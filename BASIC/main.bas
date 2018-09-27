@@ -1,3 +1,4 @@
+' Tyler Galske
 Function encrypt(strIn As String, numShifts As Integer) As String
     dim i As Integer
     Const MIN_CHAR As Integer = 65, MAX_CHAR As Integer = 90

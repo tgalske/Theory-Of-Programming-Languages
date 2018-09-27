@@ -1,3 +1,4 @@
+{ Tyler Galske }
 program Main;
 Uses sysutils;
 
