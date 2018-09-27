@@ -3,15 +3,18 @@
        DATA DIVISION.
        FILE SECTION.
        WORKING-STORAGE SECTION.
-           01 strIn PIC X(20) VALUE "HAL".
+           01 strIn PIC X(20) VALUE "unc'b px hjwtnnb".
            01 strLength PIC 99.
-           01 numShifts PIC 99 VALUE 3.
+           01 numShifts PIC 99 VALUE 9.
            01 i PIC 99.
            01 j PIC 99.
            01 MIN_CHAR PIC 99.
            01 MAX_CHAR PIC 99.
        PROCEDURE DIVISION.
        MAIN-PROCEDURE.
+           DISPLAY "DECRYPT"
+           DISPLAY strIn
+
            MOVE 66 TO MIN_CHAR *> constant
            MOVE 91 TO MAX_CHAR *> constant
 

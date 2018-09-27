@@ -13,6 +13,9 @@
            01 MAX_CHAR PIC 99.
        PROCEDURE DIVISION.
        MAIN-PROCEDURE.
+           DISPLAY "SOLVE"
+           DISPLAY strIn
+
            MOVE 66 TO MIN_CHAR *> constant
            MOVE 91 TO MAX_CHAR *> constant
 
