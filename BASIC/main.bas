@@ -2,6 +2,8 @@ Function encrypt(strIn As String, numShifts As Integer) As String
     dim i As Integer
     Const MIN_CHAR As Integer = 65, MAX_CHAR As Integer = 90
     strIn = UCase(strIn)
+    Print "ENCRYPT"
+    Print strIn
     
     for i = 0 to len(strIn)
         if strIn[i] >= MIN_CHAR And strIn[i] <= MAX_CHAR then
@@ -18,6 +20,8 @@ Function decrypt(strIn As String, numShifts As Integer) As String
     dim i As Integer
     Const MIN_CHAR As Integer = 65, MAX_CHAR As Integer = 90
     strIn = UCase(strIn)
+    Print "DECRYPT"
+    Print strIn
     
     for i = 0 to len(strIn)
         if strIn[i] >= MIN_CHAR And strIn[i] <= MAX_CHAR then
@@ -34,6 +38,8 @@ Sub solve(strIn As String, maxShiftAmount As Integer)
     dim i As Integer
     Const MIN_CHAR As Integer = 65, MAX_CHAR As Integer = 90
     strIn = UCase(strIn)
+    Print "SOLVE"
+    Print strIn
     
     Do  
         Print "Caesar " + str$(maxShiftAmount) + ": " + strIn
