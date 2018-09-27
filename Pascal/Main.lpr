@@ -10,6 +10,8 @@ var
   i: integer;
 begin
    strIn := AnsiUpperCase(strIn);
+   writeln('ENCRYPT');
+   writeln(strIn);
    for i := 0 to Length(strIn) do
        if (ord(strIn[i]) >= MIN_CHAR) and (ord(strIn[i]) <= MAX_CHAR) then
           begin
@@ -27,6 +29,9 @@ var
   i: integer;
 begin
    strIn := AnsiUpperCase(strIn);
+   writeln('DECRYPT');
+   writeln(strIn);
+
    for i := 0 to Length(strIn) do
        begin
          if (ord(strIn[i]) >= MIN_CHAR) and (ord(strIn[i]) <= MAX_CHAR) then
@@ -46,6 +51,8 @@ var
   i: integer;
 begin
    strIn := AnsiUpperCase(strIn);
+   writeln('SOLVE');
+   writeln(strIn);
 
    while maxShiftValue > -1 do
    begin
