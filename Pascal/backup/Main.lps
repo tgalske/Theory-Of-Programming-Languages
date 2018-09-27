@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="Main.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos Y="14"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="20" HistoryIndex="19">
+      <Position1>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="5" Column="53"/>
+      </Position1>
+      <Position2>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="8" Column="63"/>
+      </Position2>
+      <Position3>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="12" Column="27"/>
+      </Position3>
+      <Position4>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="13" Column="28"/>
+      </Position4>
+      <Position5>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="6" Column="52"/>
+      </Position5>
+      <Position6>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="14" Column="26"/>
+      </Position6>
+      <Position7>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="16" Column="24"/>
+      </Position7>
+      <Position8>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="3"/>
+      </Position8>
+      <Position9>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="18" Column="47"/>
+      </Position9>
+      <Position10>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="22" Column="20"/>
+      </Position10>
+      <Position11>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="17" Column="28"/>
+      </Position11>
+      <Position12>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="16" Column="47"/>
+      </Position12>
+      <Position13>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="19" Column="27"/>
+      </Position13>
+      <Position14>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="17" Column="24"/>
+      </Position14>
+      <Position15>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="19" Column="49"/>
+      </Position15>
+      <Position16>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="10" Column="6"/>
+      </Position16>
+      <Position17>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="28" Column="29" TopLine="11"/>
+      </Position17>
+      <Position18>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="15" Column="28"/>
+      </Position18>
+      <Position19>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="16" Column="35"/>
+      </Position19>
+      <Position20>
+        <Filename Value="Main.lpr"/>
+        <Caret Line="14" Column="19"/>
+      </Position20>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="Main.lpr"/>
+        <Line Value="14"/>
+      </Item1>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>
