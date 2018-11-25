@@ -25,7 +25,7 @@
 (defun solve (sentence max-shift)
   (let ((i 0))
     (loop while (>= max-shift 0) do
-	  (format t "Caesar ~a: ~a ~%" max-shift (decrypt sentence i))
+      (format t "Caesar ~a: ~a ~%" max-shift (decrypt sentence i))
       (setq max-shift (- max-shift 1))
       (setq i (+ i 1))
     )
